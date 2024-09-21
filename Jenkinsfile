@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         BRANCH_NAME = 'main'
+        
         GIT_URL = 'https://github.com/effexd101/awscicd.git'
         IMAGE_TAG = 'effexd101/awscicd'
         IMAGE_VERSION = ${BUILD_NUMBER}
